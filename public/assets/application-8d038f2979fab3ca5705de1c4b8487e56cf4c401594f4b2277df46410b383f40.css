@@ -1,0 +1,144 @@
+body {
+    font-family: 'Calibri', 'Helvetica';
+    margin: 0px;
+}
+
+header {
+    background-image: url('boy-vr.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: -380px 0px;
+    border-bottom: 25px solid #FFB612;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.logo {
+    display: none;
+    float: right;
+    margin-top: 12%;
+    margin-bottom: 20%;
+    width: 40%;
+}
+
+.wrapper {
+    width: 85%;
+    margin: auto;
+}
+
+.main{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: #3D3D3D;
+}
+
+.mobile-nav {
+    background-color: #79B801;
+    text-align: center;
+    padding: 3% 2%;
+}
+
+.mobile-nav h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Calibri';
+    margin: 0;
+}
+
+.play {
+    text-align: center;
+    background-color: #FFB612;
+    width: 200px;
+    color: white;
+    padding: 0 2%;
+    padding-bottom: 20px;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em
+}
+
+.play h2 {
+    font-family: 'Calibri';
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white; 
+}
+
+a:focus {
+    text-decoration: none;
+}
+
+.play a:hover {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    header {
+    background-size: cover;
+    background-position: -350px 60px;
+    }
+
+    .mobile-nav {
+        padding: 4% 2%;
+    }
+
+    .mobile-nav h1 {
+        font-size: 40px;
+    }
+
+    .play h2 {
+        font-size: 30px;
+        color: white;
+    }
+
+}
+
+
+
+@media (min-width: 900px) {
+  .logo {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  header {
+    background-size: cover;
+    background-position: -190px 0px;
+    }
+
+}
+
+
+@media (min-width: 1700px) {
+  .play {
+    width: 400px;
+    padding-top: 1%;
+    padding-bottom: 30px;
+}
+
+.play h2 {
+    font-size: 60px;
+}
+}
