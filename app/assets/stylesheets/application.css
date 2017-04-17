@@ -81,8 +81,7 @@ a:focus {
 }
 
 .play a:hover {
-    text-decoration: none;
-    color: black;
+    text-decoration: underline;
     cursor: pointer;
 }
 
